@@ -264,7 +264,7 @@ const stats = [
               className="mt-8 px-6 py-3 bg-orange-600 hover:bg-orange-700 text-white font-semibold rounded-lg shadow-lg transition duration-300"
               data-aos="zoom-in"
             >
-              <a href='/about'>Learn More</a>
+              <Link to="/about">Learn More</Link>
             </button>
           </div>
         </div>
