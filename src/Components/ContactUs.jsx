@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import imga from "../assets/con.jpeg";
+import imga from "../assets/sak.webp";
 import call from "../assets/call.jpeg";
 
 const ContactUsContent = () => {
