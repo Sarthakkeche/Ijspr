@@ -1,36 +1,35 @@
-
 import React, { useState, useRef } from "react";
 import { FiMenu, FiX, FiChevronDown, FiSearch } from "react-icons/fi";
-import { useLocation } from "react-router-dom"; // 👈 NEW
+import { useLocation, Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 const Navbar = () => {
-  const location = useLocation(); // 👈 Get current path
+  const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
   const hideTimeoutRef = useRef(null);
 
   const navLinks = [
-    { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Editorial Board", href: "/Eboard" },
+    { name: "Home", to: "/" },
+    { name: "About", to: "/about" },
+    { name: "Editorial Board", to: "/Eboard" },
     {
       name: "For Authors",
       dropdown: [
-        { name: "Submission Guidelines", href: "#" },
-        { name: "Ethics", href: "#" },
+        { name: "Submission Guidelines", to: "/guidelines" },
+        { name: "Ethics", to: "/ethics" },
       ],
     },
-    { name: "Issue", href: "#" },
-    { name: "Tools For Author", href: "#" },
+    { name: "Issue", to: "/issue" },
+    { name: "Tools For Author", to: "/tools" },
     {
       name: "Blogs",
       dropdown: [
-        { name: "Research Tips", href: "#" },
-        { name: "Publishing News", href: "#" },
+        { name: "Research Tips", to: "/blogs/research-tips" },
+        { name: "Publishing News", to: "/blogs/news" },
       ],
     },
-    { name: "Contact Us", href: "/contact" },
+    { name: "Contact Us", to: "/contact" },
   ];
 
   const handleMouseEnter = (name) => {
@@ -74,26 +73,26 @@ const Navbar = () => {
                   }`}
                 >
                   {link.dropdown.map((item, i) => (
-                    <a
+                    <Link
                       key={i}
-                      href={item.href}
+                      to={item.to}
                       className="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap"
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </div>
             ) : (
-              <a
+              <Link
                 key={index}
-                href={link.href}
+                to={link.to}
                 className={`hover:text-blue-600 ${
-                  location.pathname === link.href ? "text-blue-600 font-semibold" : ""
+                  location.pathname === link.to ? "text-blue-600 font-semibold" : ""
                 }`}
               >
                 {link.name}
-              </a>
+              </Link>
             )
           )}
         </div>
@@ -143,27 +142,27 @@ const Navbar = () => {
                 {activeDropdown === link.name && (
                   <div className="ml-4">
                     {link.dropdown.map((item, i) => (
-                      <a
+                      <Link
                         key={i}
-                        href={item.href}
+                        to={item.to}
                         className="block py-1 text-sm hover:text-blue-600"
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 )}
               </div>
             ) : (
-              <a
+              <Link
                 key={index}
-                href={link.href}
+                to={link.to}
                 className={`block py-2 font-medium hover:text-blue-600 ${
-                  location.pathname === link.href ? "text-blue-600 font-semibold" : ""
+                  location.pathname === link.to ? "text-blue-600 font-semibold" : ""
                 }`}
               >
                 {link.name}
-              </a>
+              </Link>
             )
           )}
         </div>
