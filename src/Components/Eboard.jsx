@@ -14,6 +14,9 @@ import vivek from "../assets/vivek.png";
 import trupti from "../assets/trupti.jpg";
 import mujtaba from "../assets/mujtaba.jpg";
 import bhimte from "../assets/bhimte.jpg";
+import sakshi from "../assets/sakshi.jpg";
+import jaya from "../assets/jaya.jpg";
+import priyanka from "../assets/priyanka.jpg";
 
 const members = [
   {
@@ -72,6 +75,30 @@ const members = [
     institute: "Anantrao Pawar College of Engineering and Research, Pune",
     image: bhimte,
   },
+  {  role: "	Associate Editorial Members ",
+     name: "Ms. Sakshi Anil Keche ",
+    title: "M Pharmacy in pharmacology ",
+    
+    institute: "Vidya Bharati College of Pharmacy Amravati , 444602 Maharashtra",
+    email:"kecheanilsakshi2001@gmail.com",
+    image: sakshi,
+  },
+ {  role: "	Associate Editorial Members ",
+     name: "Ms. Jaya Gajanan Kirdak  ",
+    title: "M Pharmacy in pharmacology ",
+    
+    institute: "Vidya Bharati College of Pharmacy Amravati , 444602 Maharashtra",
+    email:" jayakirdak@gmail.com ",
+    image: jaya,
+  },
+  {    role: "	Associate Editorial Members ",
+     name: "Ms. K. M. Priyanka ",
+    title: "M Pharmacy in pharmacology ",
+    
+    institute: "Vidya Bharati College of Pharmacy Amravati , 444602 Maharashtra",
+    email:"kmpriyanka98@gmail.com ",
+    image: priyanka,
+  },
 ];
 
   
@@ -83,6 +110,7 @@ const EditorialBoard = () => {
   const editorInChief = members.filter((m) => m.role === "Editor-in-Chief");
   const seniorEditorial = members.filter((m) => m.role === "Senior Editorial Member");
   const others = members.filter((m) => !m.role);
+  const associate = members.filter((m) => m.role=="	Associate Editorial Members ");
 
   const renderMembers = (list) =>
     list.map((member, index) => (
@@ -158,6 +186,13 @@ const EditorialBoard = () => {
           <>
             <h3 className="text-2xl font-semibold text-orange-600 mb-4">Editorial Members</h3>
             <div className="space-y-6">{renderMembers(others)}</div>
+          </>
+        )}
+
+        {associate.length > 0 && (
+          <>
+            <h3 className="text-2xl font-semibold text-orange-600 mb-4">Associate Editorial Members </h3>
+            <div className="space-y-6 mb-10">{renderMembers(associate)}</div>
           </>
         )}
       </div>

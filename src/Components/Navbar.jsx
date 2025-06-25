@@ -16,7 +16,7 @@ const Navbar = () => {
     {
       name: "For Authors",
       dropdown: [
-        { name: "Submission Guidelines", to: "/guidelines" },
+        { name: "Submission Guidelines", to: "/subguide" },
         { name: "Ethics", to: "/ethics" },
       ],
     },
