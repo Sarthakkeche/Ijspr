@@ -45,7 +45,7 @@ const ContactUsContent = () => {
           {
             icon: "📧",
             title: "Email",
-            value: "support@journalhub.in",
+            value: "editorijsrijournal@gmail.com",
           },
           {
             icon: "📍",

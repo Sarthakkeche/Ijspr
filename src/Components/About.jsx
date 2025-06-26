@@ -7,7 +7,7 @@ import imga from "../assets/about.webp";
 import bg3 from "../assets/abg.jpg";
 const AboutUsContent = () => {
   useEffect(() => {
-    AOS.init({ duration: 800 });
+    AOS.init({ duration: 600 });
   }, []);
 
   return (
@@ -41,7 +41,8 @@ const AboutUsContent = () => {
             className="w-full max-w-md mx-auto"
             data-aos="fade-right"
           />
-          <div data-aos="fade-left">
+          {/* data-aos="fade-left" */}
+          <div >
             <h2 className="text-2xl font-bold mb-4 text-orange-500">Who We Are</h2>
             <p className="mb-3">
 The International Journal of Scientific Research and Innovation (IJSRI) is a leading peer-reviewed, open-access, multidisciplinary journal dedicated to the publication of high-quality and impactful scholarly works. IJSRI serves as a dynamic global platform for the dissemination of original research, reviews, short communications, case reports, Ethics Forum contributions, Education Forum discussions, and Letters to the Editor.            </p>
