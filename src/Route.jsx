@@ -4,6 +4,7 @@ import AboutUsContent from "./Components/About";
 import ContactUsContent  from "./Components/ContactUs";
 import EditorialBoard from "./Components/Eboard";
 import GuidelinesContent from "./Components/AuthorGuidelines";
+import ScrollToTop from "./ScrollToTop";
 
 const RoutesConfig = () => {
   return useRoutes([
