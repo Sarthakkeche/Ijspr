@@ -133,9 +133,7 @@ const stats = [
              International Journal of Scientific Research and Innovation
             </h1>
             <p className="mt-4 text-sm md:text-lg font-medium text-gray-300">
-              An open access peer-reviewed journal aiming to communicate high
-              quality original research work that contribute scientific
-              knowledge related to the field of Pharmaceutical Sciences.
+             An  peer-reviewed, open-access journal that aims to publish original, high-quality research across a wide range of scientific disciplines.It provides a professional platform for innovative studies that advance global scientific knowledge, with key focus areas including Pharmaceutical Sciences, Life Sciences, Health Sciences, Engineering, and related fields.
             </p>
             <p className="mt-2 text-sm md:text-lg text-gray-300">
               (ISO 9001:2015 Certified International Journal) ISSN: 0975-4725;
@@ -207,10 +205,7 @@ const stats = [
               Who We Are
             </h2>
             <p className="text-gray-700 text-lg mb-6">
-              <strong>International Journal of Pharmaceutical Sciences</strong> is a
-              globally recognized, open-access journal committed to advancing research
-              across pharmaceutical and allied sciences through expert peer-reviewed
-              publications.
+              <strong>The International Journal of Scientific Research and Innovation (IJSRI) </strong> is an open-access, peer-reviewed publication that supports the dissemination of high-quality research across multiple scientific fields. We offer a global platform for scholars, researchers, and professionals to present original and impactful work that drives scientific advancement and interdisciplinary exchange. Through a thorough review process and commitment to accessibility, IJSRI promotes excellence and innovation in research worldwide
             </p>
 
             <ul className="space-y-4">

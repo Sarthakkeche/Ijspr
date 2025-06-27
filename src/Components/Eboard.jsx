@@ -17,6 +17,7 @@ import bhimte from "../assets/bhimte.jpg";
 import sakshi from "../assets/sakshi.jpg";
 import jaya from "../assets/jaya.jpg";
 import priyanka from "../assets/priyanka.jpg";
+import deepika from "../assets/ved.jpg";
 
 const members = [
   {
@@ -74,6 +75,14 @@ const members = [
     position: "Assistant Professor, Dept. of E&TC Engineering",
     institute: "Anantrao Pawar College of Engineering and Research, Pune",
     image: bhimte,
+  },
+   {
+    name: "Ms. Deepika Devnani ",
+    title: "M. Pharm, Ph.D.",
+    position: "Associate Professor, Department of Pharmacology  ",
+    institute: "GH Raisoni University, Saikheda 480337 Madhya Pradesh",
+   
+    image: deepika,
   },
   {  role: "	Associate Editorial Members ",
      name: "Ms. Sakshi Anil Keche ",
