@@ -26,7 +26,7 @@ const members = [
     title: "M. Pharm., PhD Tech in Pharmaceutics",
     position: "Associate Professor, Department of Pharmaceutics",
     institute: "Dadasaheb Balpande College of Pharmacy, Nagpur",
-    email: "drriteshfule1984@gmail.com",
+    email: "editorijsrijournal@gmail.com",
     image: fule,
   },
   {
@@ -34,6 +34,7 @@ const members = [
     title: "M.Tech. Structural Engineering, Ph.D.(P)",
     position: "Assistant Professor, Department of Civil Engineering",
     institute: "P. R. Pote Patil College of Engineering and Management, Amravati",
+     email: "editorijsrijournal@gmail.com",
     image: Dhoke,
   },
   {
@@ -42,7 +43,7 @@ const members = [
     title: "M. Pharma, Ph.D.",
     position: "Associate Professor & Head, Dept. of Pharmacognosy",
     institute: "Rajarshi Shahu College of Pharmacy, Buldana",
-    email: "kewatkar.shailesh@gmail.com",
+    email: "editorijsrijournal@gmail.com",
     image: Kewatkar,
   },
   {
@@ -50,7 +51,7 @@ const members = [
     title: "M. Pharm, Ph.D.",
     position: "Associate Professor & HOD, Department of Pharmacology",
     institute: "Vidyadhari College of Pharmacy, Amravati",
-    email: "vivek62@gmail.com",
+    email: "editorijsrijournal@gmail.com",
     image: vivek,
   },
   {
@@ -58,7 +59,7 @@ const members = [
     title: "M.Pharma.",
     position: "Assistant Professor, Department of Pharmacology",
     institute: "P. R. Pote College of Pharmacy, Amravati",
-    email: "truptinimburkar@gmail.com",
+    email: "editorijsrijournal@gmail.com",
     image: trupti,
   },
   {
@@ -66,7 +67,7 @@ const members = [
     title: "Ph.D (Pharmaceutics), M. Pharma",
     position: "Associate Professor, Dept. of Pharmaceutics",
     institute: "Faculty of Pharmacy, Northern Border University, Saudi Arabia",
-    email: "sajanqa@gmail.com",
+     email: "editorijsrijournal@gmail.com",
     image: mujtaba,
   },
   {
@@ -74,6 +75,7 @@ const members = [
     title: "M.Tech., PhD (pursuing)",
     position: "Assistant Professor, Dept. of E&TC Engineering",
     institute: "Anantrao Pawar College of Engineering and Research, Pune",
+     email: "editorijsrijournal@gmail.com",
     image: bhimte,
   },
    {
@@ -81,31 +83,32 @@ const members = [
     title: "M. Pharm, Ph.D.",
     position: "Associate Professor, Department of Pharmacology  ",
     institute: "GH Raisoni University, Saikheda 480337 Madhya Pradesh",
-   
+    email: "editorijsrijournal@gmail.com",
     image: deepika,
   },
   {  role: "	Associate Editorial Members ",
      name: "Ms. Sakshi Anil Keche ",
     title: "M Pharmacy in pharmacology ",
     
-    institute: "Vidya Bharati College of Pharmacy Amravati , 444602 Maharashtra",
-    email:"kecheanilsakshi2001@gmail.com",
+    
+   // institute: "Vidya Bharati College of Pharmacy Amravati , 444602 Maharashtra",
+    email: "editorijsrijournal@gmail.com",
     image: sakshi,
   },
  {  role: "	Associate Editorial Members ",
      name: "Ms. Jaya Gajanan Kirdak  ",
     title: "M Pharmacy in pharmacology ",
     
-    institute: "Vidya Bharati College of Pharmacy Amravati , 444602 Maharashtra",
-    email:" jayakirdak@gmail.com ",
+   // institute: "Vidya Bharati College of Pharmacy Amravati , 444602 Maharashtra",
+     email: "editorijsrijournal@gmail.com",
     image: jaya,
   },
   {    role: "	Associate Editorial Members ",
      name: "Ms. K. M. Priyanka ",
     title: "M Pharmacy in pharmacology ",
     
-    institute: "Vidya Bharati College of Pharmacy Amravati , 444602 Maharashtra",
-    email:"kmpriyanka98@gmail.com ",
+   // institute: "Vidya Bharati College of Pharmacy Amravati , 444602 Maharashtra",
+    email: "editorijsrijournal@gmail.com",
     image: priyanka,
   },
 ];
