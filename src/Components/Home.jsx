@@ -74,22 +74,22 @@ const Home = () => {
 const stats = [
   {
     icon: <Trophy size={36} className="text-orange-500" />,
-    value: "20",
+    value: "0",
     label: "Issue Released"
   },
   {
     icon: <BookMarked size={36} className="text-orange-500" />,
-    value: "14",
+    value: "0",
     label: "Indexing"
   },
   {
     icon: <Users size={36} className="text-orange-500" />,
-    value: "1,827",
+    value: "0",
     label: "Authors"
   },
   {
     icon: <BadgeCheck size={36} className="text-orange-500" />,
-    value: "31",
+    value: "0",
     label: "Reviewers"
   }
 ];
@@ -135,10 +135,10 @@ const stats = [
             <p className="mt-4 text-sm md:text-lg font-medium text-gray-300">
              An  peer-reviewed, open-access journal that aims to publish original, high-quality research across a wide range of scientific disciplines.It provides a professional platform for innovative studies that advance global scientific knowledge, with key focus areas including Pharmaceutical Sciences, Life Sciences, Health Sciences, Engineering, and related fields.
             </p>
-            <p className="mt-2 text-sm md:text-lg text-gray-300">
+            {/* <p className="mt-2 text-sm md:text-lg text-gray-300">
               (ISO 9001:2015 Certified International Journal) ISSN: 0975-4725;
               CODEN(USA): IJPS00
-            </p>
+            </p> */}
 
             <div className="flex flex-col md:flex-row gap-4 justify-center mt-6">
               <a
@@ -155,7 +155,7 @@ const stats = [
               </Link>
             </div>
 
-            <div className="flex flex-wrap justify-center gap-6 mt-6">
+            {/* <div className="flex flex-wrap justify-center gap-6 mt-6">
               <img
                 src="https://www.ijpsjournal.com/assetsbackoffice/uploads/ISO.png"
                 className="h-12 md:h-20 w-auto"
@@ -176,7 +176,7 @@ const stats = [
                 className="h-12 md:h-20 w-auto"
                 alt="ICV"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </SwiperSlide>
